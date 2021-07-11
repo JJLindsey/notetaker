@@ -16,6 +16,10 @@ body {
   cursor: pointer;
 }
 
+.bg-dark {
+  background-color: blueviolet !important;
+}
+
 .note-textarea,
 .note-title {
   color: #000000;
