@@ -17,7 +17,7 @@ body {
 }
 
 .bg-dark {
-  background-color: blueviolet !important;
+  background-color: rgb(250, 237, 141) !important;
 }
 
 .note-textarea,

@@ -11,25 +11,32 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="./assets/css/styles.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
 </head>
 
 <body>
-    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
-        <span class="navbar-text"></span>
-            NoteTaker
-        </span>
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">Note Taker </a>
+        <div class="icons">
+            <i class="fas fa-save text-light save-note"></i>
+            <i class="fas fa-plus text-light new-note"></i>
+        </div>
     </nav>
-    <div class='container'>
-        <div class='row'>
-
-        </row>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4 list-container">
+                <div class="card">
+                    <ul class="list-group"></ul>
+                </div>
+            </div>
+            <div class="col-8">
+                <input class="note-title" placeholder="Note Title" maxlength="28" type="text" />
+                <textarea class="note-textarea" placeholder="Note Text"></textarea>
+            </div>
+        </div>
     </div>
-
-    <script src='./assets/js/index.js' async defer></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+    <script src="/assets/js/index.js"></script>
 </body>
 
 </html>
