@@ -13,8 +13,8 @@ Note taker app using Express.js
 
 
 ### **Installation**
-npm
-espress
+npm i express uniqid
+
 
 ### **Usage**
 ⏯
