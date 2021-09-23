@@ -1,5 +1,5 @@
 const fs = require('fs');
-const { uniqid } = require('uniqid');
+const { v4: uuidv4 } = require('uuid');
 const util = require('util');
 
 const readFileAsync = util.promisify(fs.readFile);

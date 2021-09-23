@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const Notes = require('../db/storeData.js');
 
-router.get('/notes.html', (req, res) => {
+router.get('/notes', (req, res) => {
     Notes.getNotes()
         .then((notes)=> {
             return res.json(notes)
